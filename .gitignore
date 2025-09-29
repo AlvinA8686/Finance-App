@@ -1,0 +1,44 @@
+# ----------------------------------------------------------------------
+# Build/Output Artifacts (Maven/Gradle/General Java)
+# ----------------------------------------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# Standard build output directories (like the one you had)
+/target/
+/build/
+
+# ----------------------------------------------------------------------
+# IDE Files (NetBeans, etc.)
+# ----------------------------------------------------------------------
+# NetBeans specific files
+nbproject/
+*.nbattrs
+
+# Generic IDE files (VS Code, IntelliJ, etc.)
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# ----------------------------------------------------------------------
+# Security & Local Configuration (CRITICAL)
+# ----------------------------------------------------------------------
+# Prevents committing files that contain sensitive data or local settings.
+*.env
+*.properties
+*.yaml
+*.yml
+*.bak
+
+# Explicitly ignore files that caused previous security issues
+full_redaction_rule.txt
+replacement_rule.txt
+
+# Ignore files that often contain passwords or keys
+*key*
+*secret*
+*credential*
