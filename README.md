@@ -32,3 +32,35 @@ Java Development Kit (JDK) 11 or higher.
 An IDE like NetBeans, IntelliJ IDEA, or Eclipse.
 
 API keys for Polygon.io and Google Gemini.
+
+Installation & Setup
+Clone the repository:
+
+git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+cd your-repository-name
+
+Set up API Keys:
+This application requires API keys to function correctly. You must set them up as environment variables.
+
+POLYGON_API_KEY: Your API key from Polygon.io.
+
+GEMINI_API_KEY: Your API key from Google AI Studio.
+
+Create these two environment variables on your system and set their values to your respective API keys. The application reads these keys directly from your system's environment.
+
+Build and Run:
+Open the project in your preferred Java IDE. The main entry point for the application is in the App.java file. Compile and run this file to launch the application.
+
+📋 Usage
+Home Tab: Use the dropdowns to select a month and year. Enter an expense category and amount, then click "ADD" to log it. Use the right-hand panel to set your monthly budgets.
+
+Tables Tab: Enter a year, month, and category to view and add detailed expense descriptions.
+
+Graphs Tab: Input a year and month, then click "Update" to generate a visual bar chart of your spending.
+
+Stocks Tab: Click the "Update" button to fetch the latest closing prices for the pre-listed stocks.
+
+AI Tab: Type any financial question into the text box and click "Ask" to get a response from the AI assistant.
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
